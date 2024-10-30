@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <a href="#">
+                   
+                    <h2>EAT YA </h2>
+                </a>
+            </div>
+
+            <input type="checkbox"  id="click">
+            <label for="click">
+             <i class="menu_btn fa fa-bars"></i>
+             <i class="close_btn fa fa-times"></i>
+            </label>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#About">About</a></li>
+                
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero_section"  id="Home">
+        <div class="section_container">
+            <div class="hero_container">
+                <div class="text_section">
+                    <h2>Fuel Your Energy </h2>
+                    <h3>Explore Your  Fav Food </h3>
+                    <p>Welcome to our food booking platform, Discover your best food </p>
+
+                    <div class="hero_section_button">
+                        <button class="button">Order Online </button>
+                        <button class="button">Book Table Now </button>
+                        
+                    </div>
+
+                </div>
+
+                <div class="image_section">
+                    <img src="/images/download (1).jpeg" alt="hero_image">
+                </div>
+
+    
+            </div>
+
+        </div>
+      
+   
+</section>
+<section class="about_us" id="About">
+    <div class="section_container">
+        <div class="about_container">
+            <div class="text_section">
+                <h2 class="section_title">About us </h2>
+                <p>
+                    Welcome to EAT YA , where culinary passion meets exceptional dining experience. Nestled in the heart of Freetown , our restaurant is a haven for food enthusiasts seeking a delightful blend of flavors and ambiance.
+                    
+                   <br> At EAT YA, we believe that every meal is a celebration of taste. Our talented chefs craft each dish with the finest, locally-sourced ingredients, ensuring every bite is a journey of culinary excellence. 
+                    
+                    ---
+                    
+                    Feel free to personalize it further with specifics about your restaurant's history, unique features, or any special accolades. </p>
+            </div>
+        </div>
+      
+            
+        </div>
+    </div>
+</section>
+
+<section class="service" id="services">
+    <h2 class="section_title">
+        Our Service
+    </h2>
+  
+    <div class="slider-container">
+        <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
+        <div class="slider">
+            <div class="slide"><img src="/images/meat.jpeg" alt="Image 1"></div>
+            <div class="slide"><img src="/images/drink.jpeg" alt="Image 2"></div>
+            <div class="slide"><img src="/images/ice.jpeg" alt="Image 3"></div>
+            <div class="slide"><img src="/images/tea.jpeg" alt="Image 4"></div>
+            <div class="slide"><img src="/images/fish.jpeg" alt="Image 5"></div>
+            <div class="slide"><img src="/images/image1.png" alt="Image 6"></div>
+            <div class="slide"><img src="/images/image3.png" alt="Image 7"></div>
+        </div>
+        <button class="next" onclick="moveSlider(1)">&#10095;</button>
+    </div>
+    <script src="script.js"></script>
+   
+
+</section>
+ 
+
+    
+</section>
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">our Team</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">Charles</span></p>
+    </div>
+</footer>
+</body>
+</html>
