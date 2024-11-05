@@ -48,6 +48,7 @@ nav .nav_logo a {
 }
 nav .nav_logo a img {
     max-width: 55px;
+    color: white;
 
 }
 
@@ -357,3 +358,108 @@ footer{
     margin: 0px 5px;
 } 
 
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    /* General Body & Font Adjustments */
+    body {
+        font-size: 14px;
+    }
+
+    /* Header and Navigation */
+    nav {
+        flex-direction: column;
+        padding: 5px;
+    }
+    nav .nav_logo h2 {
+        font-size: 24px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    nav ul li a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    /* Hero Section */
+    .hero_container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .hero_container .text_section h2 {
+        font-size: 28px;
+    }
+    .hero_container .text_section h3 {
+        font-size: 22px;
+    }
+    .hero_container .text_section p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    .hero_container .image_section {
+        max-width: 100%;
+    }
+
+    /* About Us Section */
+    .about_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Services Section */
+    .service {
+        padding: 40px 10px;
+    }
+
+    /* Slider Container */
+    .slider-container {
+        max-width: 100%;
+    }
+
+    /* Footer */
+    .footerContainer {
+        padding: 40px 20px;
+    }
+    .socialIcons a {
+        padding: 5px;
+        font-size: 1.5em;
+    }
+    .footerNav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footerNav ul li a {
+        font-size: 1em;
+    }
+}
+
+/* Tablet View Adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Hero Section */
+    .hero_container {
+        padding: 40px;
+    }
+    .hero_container .text_section h2 {
+        font-size: 32px;
+    }
+    .hero_container .text_section h3 {
+        font-size: 26px;
+    }
+    .hero_container .text_section p {
+        font-size: 18px;
+    }
+
+    /* About Us Section */
+    .about_container {
+        gap: 10px;
+    }
+
+    /* Footer */
+    .footerContainer {
+        padding: 50px 25px;
+    }
+    .footerNav ul li a {
+        font-size: 1.2em;
+    }
+}
